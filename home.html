@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deniel's Bakery Shop</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <!-- Logo as Text -->
+      <div class="logo">
+        <h1>Deniel's Bakery Shop</h1>
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="topnav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li class="right"><a href="about.html">About</a></li>
+      </ul>    
+    </nav>
+  </header>
+
+   <!-- Main Content Section -->
+   <main class="content">
+    <div class="hero-section">
+      <!-- Logo Image (round) -->
+      <div class="logo">
+        <img src="img/LOGO.png" alt="Deniel's Bakery Shop Logo" class="logo-img">
+      </div>
+      <h1 class="hero-title">Deniel's Bakery Shop</h1>
+      <p class="hero-subtitle">Where every bite feels like home</p>
+      <button class="cta-button" onclick="location.href='about.html'">Read More</button>
+    </div>
+  </main>
+
+   <!-- Specialties Section -->
+   <section class="specialties">
+    <div class="section-title">
+      <h2>Our Specialties</h2>
+      <p>Indulge in our freshly baked delights, made with the finest ingredients.</p>
+    </div>
+
+    <!-- Slideshow Gallery -->
+    <div class="specialties-gallery">
+      <div class="specialty-item">
+        <div class="slideshow-container">
+          <div class="slides fade">
+            <img src="img/cinammonrolls.png" alt="Cinnamon Rolls">
+            <div class="description">
+              <h3>Cinnamon Rolls</h3>
+              <p>Soft, warm, and topped with a sweet glaze.</p>
+            </div>
+        </div>
+        <div class="slides fade">
+          <img src="img/chococake.png" alt="Chocolate Cake">
+          <div class="description">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and decadent, perfect for every occasion.</p>
+          </div>
+        </div>
+        <div class="slides fade">
+          <img src="img/croissant.png" alt="Croissants">
+          <div class="description">
+            <h3>Fresh Croissants</h3>
+            <p>Crispy, buttery, and always fresh out of the oven.</p>
+          </div>
+        </div>
+        <div class="slides fade">
+          <img src="img/applepie.png" alt="Apple Pie">
+          <div class="description">
+            <h3>Apple Pie</h3>
+            <p>Delicious and buttery with a hint of cinnamon.</p>
+          </div>
+        </div>
+        <div class="slides fade">
+          <img src="img/donuts.png" alt="Donuts">
+          <div class="description">
+            <h3>Fresh Donuts</h3>
+            <p>Soft, fluffy, and covered in powdered sugar.</p>
+          </div>
+        </div>
+        <div class="slides fade">
+          <img src="img/muffin.png" alt="Muffins">
+          <div class="description">
+            <h3>Blueberry Muffins</h3>
+            <p>Moist, fruity, and perfectly baked.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Reviews Section -->
+<section class="reviews">
+    <div class="section-title">
+      <h2>Customer Reviews</h2>
+      <p>See what our happy customers have to say about us!</p>
+    </div>
+  
+    <button class="reviews-button" onclick="toggleReviews()">Reviews</button>
+  
+    <div class="reviews-content" id="reviewsContent">
+      <div class="review-images">
+        <img src="img/review1.png" alt="Customer 1" class="review-image">
+        <img src="img/review2.png" alt="Customer 2" class="review-image">
+        <img src="img/review3.png" alt="Customer 3" class="review-image">
+        <img src="img/review4.png" alt="Customer 4" class="review-image">
+        <img src="img/review5.png" alt="Customer 5" class="review-image">
+        <img src="img/review6.png" alt="Customer 6" class="review-image">
+      </div>
+    </div>
+  </section>
+
+ <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-logo">
+      <img src="img/LOGO.png" alt="Deniel's Bakery Shop Logo">
+      <h2>Deniel's Bakery Shop</h2>  <!-- Bakery name below the logo -->
+    </div>
+  
+    <div class="footer-content">
+      <!-- Get in Touch Section -->
+      <div class="get-in-touch">
+        <h3>Get in Touch</h3>
+        <ul>
+          <li><strong>Location:</strong> 123 Bakery St, City, Country</li>
+          <li><strong>Email:</strong> info@denielsbakery.com</li>
+          <li><strong>Phone:</strong> +012 345 6789</li>
+        </ul>
+      </div>
+  
+      <!-- Quick Links Section -->
+      <div class="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!--JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
