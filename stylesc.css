@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #FEF1E6;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #90AACB;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #FEF1E6;
+  font-family: 'Pacifico', cursive; /* Elegant, cute logo font */
+  font-weight: normal;
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px; /* Adds spacing between navigation items */
+}
+
+.topnav li {
+  margin: 0;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: #FEF1E6;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif; /* Clean, modern font for navigation links */
+  text-transform: uppercase; /* Makes the links more visible and bold */
+  padding: 10px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.topnav a.active,
+.topnav a:hover {
+  color: #F9D5A7;
+  background-color: #FFB085; /* Adds a soft highlight effect */
+  border-radius: 5px;
+}
+
+/* Right Alignment for Last Item */
+.topnav .right {
+  margin-left: auto;
+}
+
+/* Main Content Section */
+.content {
+  padding: 20px;
+  text-align: center;
+  background-color: #FFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .topnav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .topnav li {
+    margin: 5px 0;
+  }
+}
